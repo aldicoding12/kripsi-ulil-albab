@@ -1,0 +1,41 @@
+{
+  "name": "ululalbab",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "bismillah, ini untuk tugas skripsi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldicoding12/ulul-albab.git"
+  },
+  "keywords": [
+    "al"
+  ],
+  "author": "aldi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aldicoding12/ulul-albab/issues"
+  },
+  "homepage": "https://github.com/aldicoding12/ulul-albab#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.6.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "hijri-date-converter": "^1.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "moment-hijri": "^3.0.0",
+    "mongodb": "^6.13.0",
+    "mongoose": "^8.10.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.9",
+    "pdfkit": "^0.17.1",
+    "ululalbab": "file:",
+    "validator": "^13.12.0"
+  }
+}
