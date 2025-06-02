@@ -6,11 +6,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aldicoding12/ulul-albab.git"
+    "url": "https://github.com/aldicoding12/kripsi-ulil-albab.git"
   },
   "keywords": [
     "al"
