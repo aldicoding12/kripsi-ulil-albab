@@ -2,12 +2,13 @@
 import axios from "axios";
 
 const customAPI = axios.create({
-  baseURL: "/api/ul/data", // Pastikan ini sesuai dengan backend routes
-  timeout: 10000, // 10 seconds timeout
+  baseURL: "https://ulilalbab-backend.up.railway.app/api/ul/data",
+  timeout: 10000,
   headers: {
     "Content-Type": "application/json",
   },
 });
+
 
 // Interceptor untuk request
 customAPI.interceptors.request.use(
