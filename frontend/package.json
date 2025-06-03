@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "serve -s frontend/dist"
+    "start": "vite build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.5",
@@ -21,10 +21,9 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.0",
-    "serve": "^14.2.4",
     "tailwindcss": "^4.1.5",
-    "vite": "^5.0.0",
-    "xlsx": "^0.18.5"
+    "xlsx": "^0.18.5",
+    "vite": "^5.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
